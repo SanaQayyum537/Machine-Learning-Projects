@@ -1,7 +1,7 @@
 Dataset
 
 The dataset used for this project is provided as a CSV file within the repository. It contains information about various car attributes used to evaluate car acceptability.
-Dataset File: car_evaluation.csv
+
 
 Project Overview
 The project includes the following steps:
