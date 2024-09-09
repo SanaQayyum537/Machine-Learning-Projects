@@ -10,6 +10,8 @@ Data Exploration: Explored the dataset to understand its structure and identify 
 Model Building:
  Implemented SVM , logistic regression and 
 decision tree algorithms to classify cars based on their features.
+
+
 Evaluation:
 
 Compared the performance of SVM, logistic regression, and decision trees in predicting car acceptability.
