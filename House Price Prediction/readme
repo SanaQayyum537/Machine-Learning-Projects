@@ -1,1 +1,27 @@
+This project focuses on predicting house prices across different cities in Pakistan using a comprehensive dataset available on Kaggle.
+The aim is to develop machine learning models that can help estimate the price of a property based on various factors like property type, city, and area size.
+The dataset used for this project is sourced from Kaggle.
+https://www.kaggle.com/datasets/huzzefakhan/zameencom-property-data-pakistan/code
 
+Key Steps in the Project
+
+Data Cleaning:
+Removed unnecessary columns such as URLs, agents, and location details that don't contribute to the price prediction.
+Filtered out properties with inconsistent or unrealistic values.
+
+Feature Engineering:
+Converted area sizes into a consistent measurement (square feet) based on the type of area unit (Marla or Kanal).
+Computed price per square foot to standardize the price comparison across properties.
+
+Exploratory Data Analysis (EDA):
+Visualized the average price distribution by city and property type.
+Observed that Lahore had the highest average property prices, followed by Karachi and Islamabad.
+Noted that farmhouses had the highest average price, followed by houses and flats.
+
+Log Transformation:
+Applied a log transformation to the target variable (price per square foot) to handle right-skewed distribution and mitigate the impact of outliers.
+
+
+Modeling:
+Linear Regression: A baseline model was trained on the log-transformed data, achieving strong performance after applying the transformation, which improved the model's ability to handle skewed data.
+Random Forest: A more robust ensemble model was used to capture non-linear relationships and further improve the accuracy of price predictions.
