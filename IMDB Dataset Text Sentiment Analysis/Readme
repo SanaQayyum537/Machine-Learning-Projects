@@ -1,1 +1,23 @@
+This repository contains a machine learning project that processes text data and performs sentiment analysis on IMDb movie reviews. The project includes text preprocessing, model training (using Logistic Regression), and evaluation of the trained model. It utilizes the TF-IDF vectorizer for feature extraction.
+## Dataset
+The dataset used for this sentiment analysis task contains movie reviews from IMDb. The dataset includes two primary classes: positive and negative sentiment, which the model will predict based on the text content of the reviews.
 
+-Kaggle Dataset Link:
+ https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews 
+This dataset contains movie reviews labeled with either positive or negative sentiments.
+
+Project Workflow
+
+1. Data Preprocessing:
+   - Text normalization (lowercasing, removing URLs, special characters).
+   - Removal of stop words.
+   - Punctuation removal.
+   - Stemming of words.
+   - Feature extraction using the TF-IDF Vectorizer.
+
+2. Model Training:
+   - Logistic Regression model is trained on the processed data.
+   - The model is evaluated on a validation set using accuracy and other classification metrics.
+
+3. Evaluation Metrics:
+   - Classification report is generated with precision, recall, and F1 scores for both positive and negative sentiment.
