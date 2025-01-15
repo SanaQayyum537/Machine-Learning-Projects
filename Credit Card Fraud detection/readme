@@ -1,1 +1,13 @@
+The project leverages the Credit Card Fraud Detection Dataset from Kaggle.
+Work Done
 
+Data Analysis:
+Explored and visualized the dataset to understand patterns and feature distributions.
+Analyzed the severe class imbalance in the target variable.
+
+Handling Class Imbalance:
+Used SMOTE to balance the dataset and improve model performance.
+
+Model Training:
+Implemented a Random Forest Classifier for fraud detection.
+Evaluated the model using metrics like Precision, Recall, F1-Score
