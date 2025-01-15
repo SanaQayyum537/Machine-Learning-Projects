@@ -1,1 +1,11 @@
+ **Project Overview**
+In this project, we used the Boston Housing dataset to predict the median value of homes (`MEDV`) based on various features.  
+
+1. **Data Preprocessing**:
+   - We first handled outliers using the Interquartile Range (IQR) method, replacing extreme values with the upper and lower bounds.
+   
+2. **Model Training**:
+   - After preprocessing, we scaled the features using `StandardScaler` to ensure all variables were on the same scale.
+   - We then split the data into training and test sets, training a **Linear Regression model** on the training data to predict house prices.
+
 
