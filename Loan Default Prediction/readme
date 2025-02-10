@@ -1,0 +1,19 @@
+📌 Project Overview
+
+This project aims to predict the likelihood of diseases such as diabetes based on medical data. Using the PIMA Diabetes Dataset, we analyze patient health metrics, clean the data, and train a machine learning model for accurate predictions.
+
+🗂 Dataset
+
+Source: PIMA Diabetes Dataset
+
+Features: Various medical attributes such as glucose levels, BMI, blood pressure, age, etc.
+
+Target Variable: Outcome (1 - Disease Present, 0 - No Disease)
+
+🔍 Exploratory Data Analysis (EDA)
+
+Performed data cleaning and preprocessing.
+
+Identified and visualized key trends in the dataset.
+
+Checked for outliers and removed them to improve model performance.
